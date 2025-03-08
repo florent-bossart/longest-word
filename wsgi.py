@@ -3,6 +3,8 @@
 from flask import Flask, render_template, request
 from src.longest_word.game import Game
 
+
+
 app = Flask(__name__)
 
 @app.route('/')
